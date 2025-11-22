@@ -21,8 +21,7 @@ This repository outlines the configuration steps performed after deploying an **
 
 <h2>📝 Step 1: Designing the Organizational Unit (OU) Structure</h2>
 
-To keep the domain clean and manageable, an organized OU structure was created.  
-For this themed project, each OU represents a different **One Piece crew**, making the environment both functional and fun.
+To ensure the domain stays clean and easy to manage, a well-structured set of OUs was created. In this One Piece–themed setup, each OU represents a different pirate crew, blending functionality with creativity. These OUs replace standard business departments such as HR, IT, or Accounting.
 
 **Example OUs Created:**  
 - *Straw Hat Pirates*  
@@ -30,7 +29,6 @@ For this themed project, each OU represents a different **One Piece crew**, maki
 - *Blackbeard Pirates*  
 - *Beast Pirates*
 
-These take the place of typical enterprise departments such as HR, IT, or Accounting.
 
 <p align="center">
   <img src="https://i.imgur.com/maTWHhF.png" width="80%" alt="OU Structure" />
@@ -65,7 +63,7 @@ With Active Directory Users and Computers (ADUC), user accounts were created for
 
 
 <p align="center">
-  <img src="https://i.imgur.com/YS3T3cm.png" width="80%" alt="User Creation" />
+  <img src="https://i.imgur.com/9QxI8cr.png" width="80%" alt="User Creation" />
 </p>
 
 ---
@@ -81,7 +79,7 @@ Dedicated admin accounts were created to ensure proper security and adhere to be
 
 
 <p align="center">
-  <img src="https://i.imgur.com/UxjbHNN.png" width="80%" alt="Admin Accounts" />
+  <img src="https://i.imgur.com/R0Q7MHl.png" width="80%" alt="Admin Accounts" />
 </p>
 
 ---
