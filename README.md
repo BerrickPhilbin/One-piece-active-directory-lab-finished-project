@@ -19,20 +19,10 @@ This repository documents the configuration performed after deploying an **Activ
 
 ---
 
-<h2>🏗️ Overview of Post-Deployment Steps</h2>
-
-- Step 1 — Designing the Organizational Unit (OU) Structure  
-- Step 2 — Creating User Groups & Security Roles  
-- Step 3 — Adding One Piece-Themed Users  
-- Step 4 — Creating Administrative Accounts  
- 
-
----
-
 <h2>📝 Step 1: Designing the Organizational Unit (OU) Structure</h2>
 
 An organized AD structure helps manage permissions, users, and policies.  
-For this project, OUs were named after **One Piece factions** to make the environment more engaging.
+For this project, OUs were named after **One Piece crews** to make the environment more engaging.
 
 **Example OUs Created:**  
 - *Straw Hat Pirates*  
@@ -40,6 +30,7 @@ For this project, OUs were named after **One Piece factions** to make the enviro
 - *BlackBeard Pirates*
 - *Beast Pirates*
 
+These are in place of enterprise departments, like HR, IT, and Accounting departments.
 <p align="center">
   <img src="https://i.imgur.com/maTWHhF.png" width="80%" alt="OU Structure" />
 </p>
@@ -51,8 +42,10 @@ For this project, OUs were named after **One Piece factions** to make the enviro
 Security groups were created to manage shared permissions efficiently.
 
 **Examples:**  
-- `CrewMates` Users
-- `Captains`  Admins
+- `Captains` — Admins  
+- `CrewMates` — Users  
+
+These are in place of Managers and Employees.
 
 These groups help apply permissions and GPOs consistently.
 
@@ -67,16 +60,16 @@ These groups help apply permissions and GPOs consistently.
 Using **Active Directory Users and Computers (ADUC)**, users were created to represent characters in the series.
 
 **Example User Accounts:**  
-- Ussop
+- Ussop  
 - Zoro  
-- Nami
-- Sanji
+- Nami  
+- Sanji  
 - Robin   
 
-Each user was placed in their appropriate Groups based on status, and faction.
+Each user was placed in their appropriate Groups based on status and crew.
 
 <p align="center">
-  <img src="https://i.imgur.com/BjNtZAL.png" width="80%" alt="User Creation" />
+  <img src="https://i.imgur.com/D5Fb1cm.png" width="80%" alt="User Creation" />
 </p>
 
 ---
@@ -87,19 +80,20 @@ Separate admin accounts were created for elevated privileges (best practice).
 
 **Examples:**  
 - `Luffy.Captain` — Domain Admin  
-- `Kaido.Captain` — Security Admin  
-- `Shanks.Captain` — Organizational Admin  
+- `Kaido.Captain` — Domain Admin  
+- `Shanks.Captain` — Domain Admin  
 
 Roles were assigned based on series hierarchy for fun and clarity.
 
 <p align="center">
-  <img src="https://i.imgur.com/AbvKzk4.png" width="80%" alt="Admin Accounts" />
+  <img src="https://i.imgur.com/PKqCTNK.png" width="80%" alt="Admin Accounts" />
 </p>
 
 ---
 
-<h2>📝 Step 5: Finishing up by assigning each "crew" (group) their own "ship"(work folders) based on their crew, and limiting access to said folders to their respective "crews" </h2>
- (except zoro, he gets a little lost)
+<h2>📝 Step 5: Finishing up by assigning each "crew" (group) their own "ship" (work folders) based on their crew, and limiting access to said folders to their respective "crews"</h2>
+(except Zoro, he gets a little lost)
+
 <p align="center">
   <img src="https://i.imgur.com/TZNJcx1.png" width="80%" alt="Ship folders" />
 </p>
@@ -109,6 +103,8 @@ Roles were assigned based on series hierarchy for fun and clarity.
 <p align="center">
   <img src="https://i.imgur.com/ItP20p9.png" width="80%" alt="Ship folders" />
 </p>
+
+---
 
 <h2>🎉 Conclusion</h2>
 
